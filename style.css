@@ -1,0 +1,76 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  background-color: #1f2937;
+  padding: 18px 180px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wallet1 a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: #f9faf8;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
+.left-side {
+  flex: 0 1 400px;
+  color: #f9faf8;
+}
+.left-side button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.title-image {
+  width: auto;
+  height: 300px;
+  border: seashell solid 10px;
+}
+
+/* ---------------The 2nd section------------ */
+.content {
+  padding: 18px 180px;
+}
+.content h1 {
+  text-align: center;
+}
+.wallet2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+  gap: 50px;
+}
+.item {
+  width: 180px;
+}
+.item img {
+  height: 180px;
+  width: 180px;
+  border: #3882f6 solid 5px;
+  border-radius: 10px;
+}
+.item p {
+  text-align: justify;
+}
