@@ -3,23 +3,27 @@
   <head>
     <meta charset="UTF 8 " />
     <title>Dream</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="hero">
       <div class="header">
         <img class="logo" src="./images/Logo.svg" alt="Logo" />
         <div class="wallet1">
-          <a href="">Link</a>
-          <a href="">Link</a>
-          <a href="">Link</a>
+          <a href="#title">Intro</a>
+          <a href="#content">Gallery</a>
+          <a href="#quote">Quote</a>
+          <a href="#call">Call!</a>
         </div>
       </div>
-      <div class="title">
+      <div class="title" id="title">
+        <img class="title-image" src="./images/pic5.jpg" alt="natural place" />
         <div class="left-side">
           <h1>Discover My Dream</h1>
           <p>
@@ -29,10 +33,9 @@
           </p>
           <button>Explore the Dream</button>
         </div>
-        <img class="title-image" src="./images/pic5.jpg" alt="natural place" />
       </div>
     </div>
-    <div class="content">
+    <div class="content" id="content">
       <h1>How I imagine it:</h1>
       <div class="wallet2">
         <div class="item">
@@ -65,21 +68,29 @@
         </div>
       </div>
     </div>
-    <div class="quote">
-      <h1></h1>
-      <p></p>
+    <div class="quote" id="quote">
+      <div class="quote-container">
+        <h1 class="quote-content">
+          <q>In every walk with nature, one receives far more than he seeks.</q>
+        </h1>
+        <p class="quote-teller">— John Muir</p>
+      </div>
     </div>
-    <div class="call">
+    <div class="call" id="call">
       <div class="call-container">
-        <div class="left-side">
-          <p></p>
-          <p></p>
+        <div class="left">
+          <p class="call-title">Explore with me more my dream!</p>
+          <p class="call-sub">
+            Peace is something we will continuously be chased by human!
+          </p>
         </div>
-        <button></button>
+        <div class="right">
+          <button>Sign up</button>
+        </div>
       </div>
     </div>
     <div class="footer">
-      <footer>Copyright</footer>
+      <footer>Copyright © Abdullah 2025</footer>
     </div>
   </body>
 </html>
