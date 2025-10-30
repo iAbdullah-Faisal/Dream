@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+/* ---------------1st section------------ */
 .hero {
   background-color: #1f2937;
   padding: 18px 180px;
@@ -11,12 +12,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
-
+.wallet1 {
+  display: flex;
+  gap: 36px;
+}
 .wallet1 a {
-  padding-left: 20px;
   text-decoration: none;
   color: #f9faf8;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.wallet1 a:hover {
+  background-color: #e5e7eb;
+  color: #1f2937;
 }
 .logo {
   width: 70px;
@@ -27,6 +38,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin: 50px 0px;
 }
 .left-side {
@@ -36,10 +48,15 @@ body {
 .left-side button {
   background-color: #3882f6;
   color: #f9faf8;
+  font-size: 16px;
+  font-weight: bold;
   padding: 10px;
   border-radius: 10px;
   border: none;
   cursor: pointer;
+}
+.left-side button:hover {
+  background-color: #0055dd;
 }
 
 .title-image {
@@ -48,7 +65,7 @@ body {
   border: seashell solid 10px;
 }
 
-/* ---------------The 2nd section------------ */
+/* ---------------2nd section------------ */
 .content {
   padding: 18px 180px;
 }
@@ -59,6 +76,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin: 50px 0px;
   gap: 50px;
 }
@@ -73,4 +91,82 @@ body {
 }
 .item p {
   text-align: justify;
+}
+
+/* ---------------3rd section------------ */
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.quote-container {
+  flex: 0 1 700px;
+  padding: 100px 0px;
+}
+
+.quote-content {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+  text-align: justify;
+}
+.quote-teller {
+  margin: 0;
+  color: #1f2937;
+  text-align: end;
+  font-weight: bold;
+}
+
+/* ---------------4nd section------------ */
+.call {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-container {
+  flex: 0 1 800px;
+  padding: 22px 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882f6;
+}
+.left {
+  color: #e5e7eb;
+}
+.call-title {
+  font-weight: bolder;
+  font-size: large;
+  margin-bottom: 0;
+}
+.call-sub {
+  font-size: small;
+  margin-top: 0;
+}
+.right button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: #e5e7eb solid;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+.right button:hover {
+  background-color: #e5e7eb;
+  color: #0055dd;
+  border: #1f2937 solid;
+}
+
+/* ---------------The 5th section------------ */
+.footer {
+  background-color: #1f2937;
+  padding: 32px;
+  text-align: center;
+  color: #e5e7eb;
 }
